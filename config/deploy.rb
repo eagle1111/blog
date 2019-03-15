@@ -3,7 +3,7 @@ sh "ssh-add"
 lock "~> 3.11.0"
 
 set :application, "blog"
-set :repo_url, "git@github.com:eagle1111/blog.git"
+set :repo_url, "https://github.com/eagle1111/blog.git"
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
